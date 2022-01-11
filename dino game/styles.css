@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game {
+    width: 75%;
+    height: 280px;
+    margin: auto;
+    border: 5px solid #494949;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+img {
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: 207.5px;
+    left: 80px;
+}
+.animate {
+    animation: jump 0.5s linear;
+}
+@keyframes jump {
+    0%{top: 210px}
+    38%{top: 160px}
+    76%{top: 160px}
+    100%{top: 210px}
+}
+.obstacle {
+    background-color: #494949;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 151px;
+    left: 96%;
+    animation: obstacle 1s infinite linear;
+}
+@keyframes obstacle {
+    0%{left: 96%;}
+    100%{left: -0.4%}
+}

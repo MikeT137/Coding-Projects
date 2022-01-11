@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #181A40;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background: #454773;
+    border-radius: 15px;
+    margin: 20px 5% 0px 5%;
+    padding: 1rem;
+    overflow: hidden;
+}
+h1 {
+    -webkit-text-stroke: 1px #F2F2F2;
+    color: #454773;
+    font-size: 100px;
+    margin-top: 150px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+p {
+    color: #585b94c4;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+.elements, .elements:focus, .elements:active {
+    text-decoration: none;
+    color: #F2F2F2;
+    padding: 0 5px;
+}
+.elements:hover {
+    transition: all 0.5s ease;
+    background: #F2F2F2;
+    color: #454773;
+    padding: 100% 5px;
+}
+.elements:hover:first-child {
+    transition: all 0.5s ease;
+    background: #F2F2F2;
+    color: #454773;
+    padding: 100% 5px;
+}
+.thing {
+    font-size: 20px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+}
+.wa {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    float: right;
+    margin: 11px 2.5px 0 2.5px;
+}
+button {
+    display: block;
+    background: #454773;
+    border: 5px solid #181A40;
+    color: #F2F2F2;
+    overflow: auto;
+    width: 60rem;
+    height: 6rem;
+    padding: 2rem;
+    margin: auto;
+    font-size: large;
+    text-align: left;
+}
+button:hover {
+    background: #F2F2F2;
+    color: #454773;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#first {
+    margin-top: 5%;
+    border-radius: 1.5rem 1.5rem 0px 0px;
+}
+#last {
+    border-radius: 0px 0px 1.5rem 1.5rem;
+    margin-bottom: 5%;
+}
+.invite {
+    background: #454773;
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    width: 8.5rem;
+    margin: auto;
+    padding: 7px;
+    overflow: hidden;
+}
+.invite:hover {
+    transition: all 0.5s ease;
+    background: #F2F2F2;
+    color: #454773;
+}
+img {
+    border-radius: 100%;
+}
+::-webkit-scrollbar {
+    width: 0.4rem;
+  }
+  ::-webkit-scrollbar-track {
+    background: #181A40; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #585b94c4;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F2F2F2;
+  }
