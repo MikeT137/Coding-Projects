@@ -1,0 +1,6 @@
+{
+    "cellSize": 40,
+    "cellNum": 25,
+    "speed": 150,
+    "fps": 60
+}
