@@ -1,3 +1,3 @@
 # Coding-Projects
-All the projects that i make
-These projects are simply made for fun and learning purposes
+All the projects that i made so far.
+These are simply made for fun and learning purposes.
